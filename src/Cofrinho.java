@@ -74,7 +74,7 @@ public class Cofrinho {
 
         // Exibe o total convertido
         System.out.println("\n==============================");
-        System.out.println("💰 Total convertido para Real: R$ " + total);
+        System.out.println("💰 Total convertido para Real: R$ " + String.format("%.2f", total));
         System.out.println("==============================");
     }
 }
